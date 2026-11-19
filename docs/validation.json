@@ -1,0 +1,41 @@
+{
+  "reviewDate": "2026-11-19",
+  "scope": "Independent demonstration package, not a full protocol security audit",
+  "officialSDK": {
+    "engineClient": "0.65.0",
+    "shared": "0.65.0",
+    "queryObservationUTC": "2026-11-19T10:54:25.542Z",
+    "marketRecordsReturned": 99,
+    "quoteProductId": 2,
+    "publicQuery": "PASS",
+    "walletClientSupplied": false,
+    "orderSubmission": false
+  },
+  "build": "PASS",
+  "automatedTests": { "passed": 10, "failed": 0 },
+  "offlineAppendix": "PASS_NO_BUILDER_NO_FEE_ASSUMED",
+  "browser": {
+    "desktop": "PASS",
+    "mobileLayout": "PASS",
+    "duplicateAcrossRoutes": "PASS_ONE_ACTION_TWO_SOURCES_ZERO_XP",
+    "repeatObservation": "PASS",
+    "reset": "PASS",
+    "loadedImages": 7,
+    "horizontalOverflow": false,
+    "capturedConsoleErrors": 0,
+    "capturedConsoleWarnings": 0,
+    "mobileRequestedWidth": 390,
+    "mobileObservedCSSWidth": 433
+  },
+  "dependencyAudit": {
+    "command": "npm audit --omit=dev",
+    "reportedVulnerabilities": 0,
+    "axiosOverride": "1.21.1",
+    "wsOverride": "8.23.0",
+    "note": "Same-major transitive updates remove reported advisories; tests and actual public queries were repeated. This is a dated registry result, not a guarantee of no vulnerabilities."
+  },
+  "financialActionsExecuted": 0,
+  "xpIssued": 0,
+  "applicationSubmitted": false,
+  "publicPublicationApproved": false
+}
